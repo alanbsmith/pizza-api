@@ -1,0 +1,35 @@
+{
+  "name": "pizza-api",
+  "version": "0.1.0",
+  "description": "a graphql api for pizza",
+  "main": "server.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Smith <a.bax.smith@gmail.com> (https://github.com/alanbsmith)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.7",
+    "graphql": "^0.10.5",
+    "knex": "^0.13.0",
+    "nodemon": "^1.11.0",
+    "pg": "^7.1.2"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.1"
+  }
+}
