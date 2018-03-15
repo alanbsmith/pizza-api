@@ -34,13 +34,9 @@ const schema = buildSchema(`
     city: String,
     name: String,
     website: String,
+    lat: Int,
+    lng: Int,
   }
 `);
 
 module.exports = schema;
-
-// input PizzeriaInput {
-//   id: ID,
-//   text: String,
-//   complete: Boolean,
-// }

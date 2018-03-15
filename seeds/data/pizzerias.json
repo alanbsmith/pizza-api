@@ -127,7 +127,7 @@
       "marker-color": "ffff00",
       "marker-symbol": "restaurant"
     },
-    "geometry": { "type": "Point", "coordinates": [38.572606, -121.480032] }
+    "geometry": { "type": "Point", "coordinates": [-121.480032, 38.572606] }
   },
   {
     "type": "Feature",
